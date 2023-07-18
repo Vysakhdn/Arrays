@@ -1,7 +1,7 @@
-const a=[2,3,4,5,6]
-function square(e){
-    return e*e
+const s=[2,3,4,5,6]
+function square(p){
+    return p*p
 }
-a.forEach(function(e)
+s.forEach(function(p)
 {
-    console.log(square(e))})
+    console.log(square(p))})

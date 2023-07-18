@@ -1,7 +1,7 @@
-const a=[2,3,4,5,6]
-var product=a.reduce(function(ac,e)
+const s=[2,3,4,5,6]
+var product=s.reduce((ac,e) =>
 {   
     return ac*e
 })
 
-console.log(a,product)
+console.log(s,product)

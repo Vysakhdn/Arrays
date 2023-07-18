@@ -1,4 +1,4 @@
 const a=["Edstem","technology","private","limited"];
-a.forEach(function(e)
+a.forEach((e)=>
 {
     console.log(e,'-',e.length)})

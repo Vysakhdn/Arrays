@@ -1,5 +1,5 @@
-const a=["Edstem","technology","private","limited"];
-var b=a.reduce(function(ac,e)
+const s=["Edstem","technology","private","limited"];
+var b=s.reduce((ac,e)=>
 {
    return ac+'_'+e
 })
